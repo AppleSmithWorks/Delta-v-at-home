@@ -129,7 +129,6 @@
 - type: roleLoadout
   id: JobAdministrativeAssistant
   groups:
-  - AdminAssistantHead
   - AdminAssistantJumpsuit
   - AdminAssistantOuter
   - AdminAssistantShoes

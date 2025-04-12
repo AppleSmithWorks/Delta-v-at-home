@@ -701,12 +701,6 @@
   - AdminAssistantJumpskirt
 
 - type: loadoutGroup
-  id: AdminAssistantHead
-  name: loadout-group-admin-assistant-head
-  loadouts:
-  - AdminAssistanthat
-
-- type: loadoutGroup
   id: AdminAssistantShoes
   name: loadout-group-admin-assistant-shoes
   loadouts:
