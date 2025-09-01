@@ -1,4 +1,4 @@
-﻿<Control
+<Control
     xmlns="https://spacestation14.io"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:cc="clr-namespace:Content.Client.Administration.UI.CustomControls"
@@ -12,5 +12,6 @@
         <Button Name="LoadGamePrototypeButton" Text="{Loc 'load-game-prototype'}"/>
         <cc:UICommandButton Name="LoadBlueprintsButton" Command="loadbp" Text="{Loc 'load-blueprints'}" WindowType="{x:Type abt:LoadBlueprintsWindow}"/>
         <cc:CommandButton Command="deleteewc Singularity" Name="DeleteSingulos" Text="{Loc 'delete-singularities'}"/>
+        <cc:CommandButton Name="SetCburnButton" Command="setcburn" Text="{Loc cburn-spawn-toggle}" ToggleMode="True" />
     </GridContainer>
 </Control>
